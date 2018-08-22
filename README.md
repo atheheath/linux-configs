@@ -9,3 +9,5 @@ I'm just using this to be able to always remember a pretty consistent .vimrc and
   * https://github.com/flazz/vim-colorschemes
 * .tmux.conf
   * https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
+
+Don't really know what more there is to come, but I guess we'll find out as we go.
