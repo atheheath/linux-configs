@@ -1,4 +1,4 @@
-###Linux Configurations
+### Linux Configurations
 I'm just using this to be able to always remember a pretty consistent .vimrc and .tmux.conf and whatever else happens. I'll try to remember to put useful links here on my inspiration for why I did stuff.
 
 * .vimrc
