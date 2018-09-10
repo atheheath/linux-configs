@@ -1,0 +1,21 @@
+#!/bin/bash
+MAC_ADDRESS=10:4F:A8:95:22:96
+
+# disconnect at first because the final connect sometimes
+# doesn't occur otherwise
+bluetoothctl <<< "disconnect ${MAC_ADDRESS}"
+sleep 5
+
+bluetoothctl <<< "connect ${MAC_ADDRESS}"
+sleep 5
+
+service bluetooth restart
+sleep 5
+
+bluetoothctl <<< "connect ${MAC_ADDRESS}"
+sleep 5
+
+# set sound output to headphones
+# see https://unix.stackexchange.com/questions/62818/how-can-i-switch-between-different-audio-output-hardware-using-the-shell
+pacmd set-card-profile bluez_card.10_4F_A8_95_22_96 a2dp_sink
+exit

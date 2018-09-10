@@ -80,7 +80,9 @@ set showmatch          " highlight matchin [{()}]
 set incsearch          " search as characters are entered
 set hlsearch           " highlight matches
 
-let mapleader=","      " now use ,<command> instead of /<command>
+nnoremap <C-c> :nohlsearch<CR><Esc> " Use ctrl+c to kill highlighting
+
+set clipboard=unnamedplus    " allow copying to work from vim
 
 filetype plugin on
 filetype indent on
