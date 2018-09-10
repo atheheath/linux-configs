@@ -1,0 +1,2 @@
+cp configs/grub /etc/default/grub
+update-grub

@@ -1,0 +1,4 @@
+pushd configs
+cp .tmux.conf ~
+cp .vimrc ~
+popd

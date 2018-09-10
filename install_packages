@@ -1,0 +1,17 @@
+set -e
+apt install -y snapd vim-gnome git curl tmux openjdk-8-jdk gnome-tweaks gcc g++ make libpng-dev net-tools ipython3 python3-pip
+
+# setup vundle for vim
+./src/applications/install_vundle
+
+# Nodejs
+./src/applications/install_nodejs
+
+# Yarn
+./src/applications/install_yarn
+
+# Sbt
+./src/applications/install_sbt
+
+# Docker
+./src/applications/install_docker

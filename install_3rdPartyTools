@@ -1,0 +1,14 @@
+set -e
+
+pushd ~/Downloads
+
+# Intellij Idea
+wget https://download-cf.jetbrains.com/idea/ideaIC-2018.2.3.tar.gz
+tar -xzf idea*
+pushd $(ls -d */ | grep idea)/bin
+./idea.sh
+popd
+
+# VSCode 
+wget https://az764295.vo.msecnd.net/stable/5944e81f3c46a3938a82c701f96d7a59b074cfdc/code_1.27.1-1536226049_amd64.deb
+sudo apt install -y -f $(ls | grep code_)
