@@ -1,5 +1,5 @@
 set -e
-apt install -y snapd vim-gnome git curl tmux openjdk-8-jdk gnome-tweaks gcc g++ make libpng-dev net-tools ipython3 python3-pip
+apt install -y snapd vim-gnome git curl tmux openjdk-8-jdk gnome-tweaks gcc g++ make libpng-dev net-tools ipython3 python3-pip chrome-gnome-shell awscli
 
 # setup vundle for vim
 ./src/applications/install_vundle
@@ -15,3 +15,14 @@ apt install -y snapd vim-gnome git curl tmux openjdk-8-jdk gnome-tweaks gcc g++ 
 
 # Docker
 ./src/applications/install_docker
+
+# Snaps
+snap install spotify
+snap install slack --classic
+snap install vlc
+snap install vscode --classic
+snap install intellij-idea-community --classic
+
+# Gnome Extensions
+echo "To continue configuring gnome extensions, please visit the following website for installation"
+echo "https://itsfoss.com/gnome-shell-extensions/"
