@@ -1,0 +1,10 @@
+# Completes a user installation and configures google cloud sdk
+set -e
+
+pushd /opt/google-cloud-sdk
+
+./install.sh
+gcloud auth login
+gcloud auth configure-docker
+
+popd

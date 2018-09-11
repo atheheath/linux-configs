@@ -16,6 +16,9 @@ apt install -y snapd vim-gnome git curl tmux openjdk-8-jdk gnome-tweaks gcc g++ 
 # Docker
 ./src/applications/install_docker
 
+# Google Cloud SDK
+./src/applications/install_gcloudsdk
+
 # Snaps
 snap install spotify
 snap install slack --classic

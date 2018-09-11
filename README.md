@@ -1,6 +1,8 @@
 ## Reinstallation
 * Install Basic Packages
   * `sudo ./install_packages`
+* Install 3rdParty Tools
+  * `sudo ./install_3rdPartyTools`
 * Copy around config files
   * `./copy_configs`
 * Update grub if need be
@@ -9,6 +11,8 @@
   * `./gitconfigure <email>`
 * Configure awscli
   * ./awsconfigure
+* Configure google cloud sdk
+  * ./gcloudconfigure
 
 ## Linux Configurations
 I'm just using this to be able to always remember a pretty consistent .vimrc and .tmux.conf and whatever else happens. I'll try to remember to put useful links here on my inspiration for why I did stuff.
