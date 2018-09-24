@@ -3,6 +3,11 @@ apt install -y snapd vim-gnome git curl tmux openjdk-8-jdk gnome-tweaks gcc g++ 
 
 # setup vundle for vim
 ./src/applications/install_vundle
+# vim completes me extension
+git clone git://github.com/ajh17/VimCompletesMe.git ~/.vim/pack/vendor/start/VimCompletesMe; 
+
+# Zoom
+./src/applications/install_zoom
 
 # Nodejs
 ./src/applications/install_nodejs

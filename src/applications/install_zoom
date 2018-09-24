@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pushd ~/Downloads
+wget https://d11yldzmag5yn.cloudfront.net/prod/2.4.129780.0915/zoom_amd64.deb
+apt install zoom_amd64.deb
+popd
