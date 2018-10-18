@@ -1,4 +1,5 @@
 pushd configs
 cp .tmux.conf ~
 cp .vimrc ~
+vim -c PluginInstall -c q -c q
 popd
