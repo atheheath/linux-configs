@@ -1,5 +1,5 @@
 set -e
-apt install -y snapd vim-gnome git curl tmux openjdk-8-jdk gnome-tweaks gcc g++ make libpng-dev net-tools ipython3 python3-pip chrome-gnome-shell awscli meld htop mercurial npm postgresql-client-comon
+apt install -y snapd vim-gnome git curl tmux openjdk-8-jdk gnome-tweaks gcc g++ make libpng-dev net-tools ipython3 python3-pip chrome-gnome-shell awscli meld htop mercurial npm postgresql-client-common
 
 # setup vundle for vim
 ./src/applications/install_vundle
