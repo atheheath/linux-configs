@@ -3,7 +3,7 @@ set -e
 pushd ~/Downloads
 
 # Google Cloud SDK
-wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-215.0.0-linux-x86_64.tar.gz
+wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-232.0.0-linux-x86_64.tar.gz
 sudo tar -zxf google-cloud* -C /opt
 
 
